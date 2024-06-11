@@ -1,23 +1,22 @@
 import logo from './logo.svg';
+import myImg from './img/unnamed.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="App-header my-class">
+        <img src={myImg} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Troian Dmytro
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      {/* <div className="my-class">
+        <img src={myImg}/>
+        <p className="p-style">
+          Troian Dmytro
+        </p>
+      </div> */}
     </div>
   );
 }

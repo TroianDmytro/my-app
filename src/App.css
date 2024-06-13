@@ -1,31 +1,39 @@
 .App {
+  margin-top: 2em;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items:center;
-  overflow: hidden;
   
 }
 
-.my-class {
-  position: absolute;
-  animation: dropout-block 10s forwards;
+
+.shveps-card{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  /* width: fit-content;
+  height: fit-content; */
+  background-color:grey;
+}
+.container-logo{
+  margin-top: 1em;
+  width: 90%;
+  height: 25em;
+  text-align: center;
+}
+.logo{
+  width: 10em;
+  height: 90%;
+  
+}
+.title-card{
+  max-width: 300px;
+  padding: 1em;
+  text-align: left;
 }
 
-.my-class img{
-  width: 200px;
 
-  border-radius: 100px;
-}
-.my-class img:hover{
-
-  animation:my-class-logo-spin infinite 5s linear;
-}
-.p-style {
-  font-family: Impact;
-  font-size: 30px;
-  margin: 1em auto;
-}
 
 @keyframes dropout-block {
   0% {
@@ -72,17 +80,7 @@
   }
 }*/
 
-.App-header {
-  /* min-height: 100vh; */
-  height: 50%;
-  background-color:green;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  
-}
+
 /*
 @keyframes App-logo-spin {
   from {

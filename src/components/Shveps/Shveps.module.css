@@ -1,0 +1,103 @@
+.Shveps {
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;
+
+}
+
+.ShvepsCard {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.Logo {
+    width: 100%;
+}
+
+.ContainerLogo {
+    position: relative;
+}
+
+.Preferences {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    width: 7%;
+    height: 7%;
+}
+
+.TitleProd {
+    margin: 0;
+    padding: 0;
+    color: rgb(91, 86, 86);
+}
+
+.Reviews {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+    
+}
+
+.Stars img {
+    width: 1em;
+    height: 1em;
+}
+
+.Comments{
+    display: flex;
+    flex-direction: row;
+    
+}
+.Comments img{
+    width: 1em;
+    height: 1em;
+    padding-top: 0.2em;
+    padding-left: 0.8em;
+}
+
+.Comments p{
+    margin: 0;
+    padding-left: 0.3em;
+    color:grey;
+
+}
+
+.OldPriceAndDiscount{
+    display: flex;
+    justify-content: column;
+    margin-top: 1em;
+}
+
+.OldPrice{
+    color:grey;
+}
+
+.Discount{
+    background-color: rgb(236, 101, 101);
+    width: 3em;
+    text-align: center;
+    border-radius: 15px;
+    color:white;
+    margin-left: 0.7em;
+}
+
+.NewPrice{
+    margin: 0.5em 0;
+    font-weight: 750;
+}
+
+.BtnBuy{
+    width: 50%;
+    min-width: min-content;
+    height: 5vh;
+    min-height: 2em;
+    border-radius:4px;
+    background-color:rgb(40, 13, 92);
+    color:white;
+}
+

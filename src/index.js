@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import MyComponent from './components/MyComponent/MyComponent.js';
+// import MyComponent from './components/MyComponent/MyComponent.js';
 import reportWebVitals from './reportWebVitals';
+import Shveps from "./components/Shveps/Shveps.js"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MyComponent />
+    <Shveps />
   </React.StrictMode>
 );
 

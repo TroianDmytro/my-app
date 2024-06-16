@@ -7,13 +7,10 @@
   
 }
 
-
 .shveps-card{
   display: flex;
   flex-direction: column;
   align-items:center;
-  /* width: fit-content;
-  height: fit-content; */
   background-color:grey;
 }
 .container-logo{
@@ -32,8 +29,6 @@
   padding: 1em;
   text-align: left;
 }
-
-
 
 @keyframes dropout-block {
   0% {
